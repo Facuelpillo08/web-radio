@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/fondochill.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    color: white;
+}
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+/*PERSONALIZACION DE LA BARRA DE NAVEGACION PC*/
+.navbar-custom{
+    background-color: rgb(0, 0, 0, 0);
+    box-shadow: none !important;
+}
+.nav-wrapper ul li a {
+    background-color: transparent;
+    box-shadow: none;
+}
+.background-white{
+    background-color: white !important;
+}
+.background-white:hover{
+    color:black !important;
+}
+.selec-navbar{
+    border-bottom: 3px solid #652692;
+}
+/*PERSONALIZACION DE LA BARRA DE NAVEGACION TELEFONO*/
+
+.btn-mobile{
+    font-weight: 600;
+}
+.btn-mobile:hover{
+    color: white !important;
+    background-color: black !important;
+}
+.center-navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.sidenav{
+    background-color: #141517;
+}
+.sidenav li a{
+    color: white;
+}
+/*FOOTER*/
+
+.icons-redes{
+    display: flex;
+    justify-content: center;
+}
+.icons-redes li{
+    margin: 2%;
+}
+.c-grey{
+    color: grey;
+}
+.c-grey:hover{
+    color: white;
+}
+
+.btn{
+    background-color: white;
+    color:black;
+    font-weight: 600;
+    text-transform: none;
+    transition: 1s;
+}
+.btn:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+}
+.btn:focus{
+    background-color: grey;
+    color: black;
+}
+.logo-fotter{
+    width: 100px;
+}
+.foot-h5{
+    font-weight: 600;
+}
+
+.header{
+    margin-bottom: 3%;
+}
+.divider{
+    border: 2px solid #1e1e21;
+    margin-bottom: 3%;
+}
+
+h1{
+    font-weight: 600;
+}
+
+.foot-1{
+    display: flex;
+}
+.foot-1b{
+    width: 40%;
+    justify-content: center;
+}
+.foot-1b img{
+    width: 60%;
+}
+.foot-1a{
+    width: 60%;
+    text-align: left;
+}
+.ladanza{
+    text-align: center;
+}
+
+/*Imagenes*/
+
+img.fade-transition {
+    position: relative;
+    width: 100%; /* Ajusta el tamaño según necesites */
+    height: auto;
+  }
+
+  #foto1 ,#foto2,#foto3,#foto4 ,#foto5 ,#foto6,#foto7{
+    border-radius: 5%;
+    height: 160px;
+    width: 400px;
+
+    box-shadow: 2px 1px 53px 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 1px 53px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 1px 53px 2px rgba(0,0,0,0.5);
+}
+
+#foto4 ,#foto5 ,#foto6,#foto7{
+height: 130px;
+
+
+}
+#caja{
+    margin-top: 40px;
+    color: #24262b;
+    
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        outline: none;
+        user-select: none;
+        color: #F6A938;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 2px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: #F6A938;
+        border-left-color: transparent;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        background-color: transparent;
+}
+      
+      #caja:hover {
+        transition: all 0.3s ease;
+        border-color: #ec7d10;
+        color: #ec7d10;
+        background-color: transparent;
+      }
+
+      .fade-transition{
+        transition: opacity 1s ease-in-out; /* Transición suave de opacidad en 1 segundo */
+        opacity: 0,5; /* Inicialmente visible */
+    
+        
+    }
+    
+    img.fade-transition {
+        position: relative;
+        width: 100%; /* Ajusta el tamaño según necesites */
+        height: auto;
+      }
+    
