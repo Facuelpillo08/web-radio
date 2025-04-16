@@ -188,6 +188,31 @@ image8.addEventListener('mouseout', function() {
   }, 1000); // El mismo tiempo que la transición de opacidad
 });
 
+const image9 = document.getElementById('foto8');
+
+// Cambiar la imagen cuando el cursor pasa por encima
+image9.addEventListener('mouseover', function() {
+  // Hacemos que la imagen se desvanezca antes de cambiarla
+  image9.style.opacity = 0;
+
+  // Esperamos un momento antes de cambiar la imagen para permitir el desvanecimiento
+  setTimeout(function() {
+    image9.src = '../static/images/fuegoweb.jpg';
+    // Volvemos a hacer visible la imagen con opacidad
+    image9.style.opacity = 1;
+  }, 1000); // El mismo tiempo que la transición de opacidad
+});
+
+// Volver a la imagen original cuando el cursor sale
+image9.addEventListener('mouseout', function() {
+  image9.style.opacity = 0;
+
+  setTimeout(function() {
+    image9.src = '../static/images/fuego.jpg';
+    image9.style.opacity = 1;
+  }, 1000); // El mismo tiempo que la transición de opacidad
+});
+
 
 
 
