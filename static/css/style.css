@@ -129,6 +129,12 @@ h1{
 .ladanza{
     text-align: center;
 }
+.pie{
+    background-image: url(../images/fondologo.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
 
 /*Imagenes*/
 
@@ -138,7 +144,7 @@ img.fade-transition {
     height: auto;
   }
 
-  #foto1 ,#foto2,#foto3,#foto4 ,#foto5 ,#foto6,#foto7,#foto8{
+  #foto1 ,#foto2,#foto3,#foto4 ,#foto5 ,#foto6,#foto7{
     border-radius: 5%;
     height: 160px;
     width: 400px;
