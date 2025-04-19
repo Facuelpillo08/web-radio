@@ -103,7 +103,7 @@ nav {
 .header{
     margin-bottom: 3%;
 }
-.divider{
+.div-color{
     border: 2px solid #1e1e21;
     margin-bottom: 3%;
 }
@@ -154,7 +154,7 @@ img.fade-transition {
     -moz-box-shadow: 2px 1px 53px 2px rgba(0,0,0,0.5);
 }
 
-#foto4 ,#foto5 ,#foto6,#foto7{
+#foto4, #foto5, #foto6, #foto7, #foto8{
 height: 130px;
 
 
