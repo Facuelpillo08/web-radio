@@ -213,4 +213,16 @@ height: 130px;
         width: 100%; /* Ajusta el tamaño según necesites */
         height: auto;
       }
+
+  
+.button--glass {
+    background-color: rgba(253, 99, 47, 0.2);
+    backdrop-filter: blur(10px);
+    color: var(--primary-color);
+  
+}
+
+.button--glass:hover {
+    background-color: rgba(151, 40, 216, 0.3);
+}
     
