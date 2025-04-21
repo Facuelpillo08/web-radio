@@ -3,3 +3,13 @@
     align-items: center;
     gap: 50px;
 }
+
+
+.fixed-action-btn{
+    position: absolute;
+    right: 0px;
+    top: 23px;
+    padding-top: 15vh;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
