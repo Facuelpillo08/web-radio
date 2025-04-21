@@ -14,6 +14,8 @@ body{
     background-position: center center;
     color: white;
 }
+
+
 nav {
     top: 0;
     left: 0;
@@ -23,6 +25,8 @@ nav {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 10;
 }
+
+
 /*PERSONALIZACION DE LA BARRA DE NAVEGACION PC*/
 .navbar-custom{
     background-color: rgb(0, 0, 0, 0);
@@ -144,7 +148,7 @@ img.fade-transition {
     height: auto;
   }
 
-  #foto1 ,#foto2,#foto3,#foto4 ,#foto5 ,#foto6,#foto7{
+  #foto1 ,#foto2,#foto3,#foto4 ,#foto5 ,#foto6,#foto7,#foto8{
     border-radius: 5%;
     height: 160px;
     width: 400px;

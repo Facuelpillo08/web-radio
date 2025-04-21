@@ -17,9 +17,14 @@
 </head>
 
 <body>
-    <div style="text-align: center;">
+   
+  
+      <div style="text-align: center" >
         <a href="Inicio.html"><img decoding="sync" src="../static/images/logo.png"  style=" height: 150px; width: auto;" alt="Inicio"></a>
       </div>
+    
+
+
     <!--Barra de navegacion-->
     <div class="navbar">
         <nav class="navbar-custom">
@@ -177,5 +182,20 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="../static/js/main.js"></script>
+<script>
+
+document.addEventListener('DOMContentLoaded', function () {
+      const elems = document.querySelectorAll('.fixed-action-btn');
+      M.FloatingActionButton.init(elems, {
+        direction: 'down',
+        hoverEnabled: false // Cambia a true si quieres que funcione con hover
+      });
+    });
+
+
+  
+
+</script>
+
 </body>
 </html>
