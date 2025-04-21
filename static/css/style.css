@@ -138,6 +138,7 @@ h1{
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
+   
 }
 
 /*Imagenes*/
@@ -229,3 +230,13 @@ height: 130px;
 .button--glass:hover {
     background-color: rgba(151, 40, 216, 0.3);
 }
+
+.texto{
+    text-align: center;
+    margin-top: 100px;
+    max-width: 1300px;
+    max-height: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
