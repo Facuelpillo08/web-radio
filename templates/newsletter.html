@@ -35,22 +35,43 @@
                      
                         <li><a href="beneficios_home.html">Beneficios</a></li>
                         <li class="selec-navbar"><a href="newsletter.html">Newsletter</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
                         <li><a href="noticias.html">Noticias</a></li>
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="Comunidad-Urbana.html" class="background-white btn">Únete</a></li>
+                        <li><a href="comunidad.html" class="background-white btn">Únete</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </div>
+    <!--botonflotante-->
+        <div class="fixed-action-btn direction-down">
+            <a class="btn-floating btn-large red">
+              <i class="large material-icons">mode_edit</i>
+            </a>
+            <ul>
+              <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+              <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+              <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+              <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+            </ul>
+          </div>
+          
+        </div>
+    
+   
+
     <!-- menu mobile-->
     <ul id="mobile-navbar" class="sidenav">
-        <li><a href="Inicio.html">inicio</a></li>
         <li><a href="beneficios_home.html">Beneficios</a></li>
         <li class="selec-navbar"><a href="newsletter.html">Newsletter</a></li>
-        <li><a href="">Nosotros</a></li>
-        <li><a href="Comunidad-Urbana.html" class="black-text btn btn-mobile">Únete</a></li> 
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="comunidad.html" class="background-white btn">Únete</a></li>
     </ul>
+    <div class="container center header">
+        <h1 class="title-header">NEWSLETTER</h1>
+    
+    </div>
+    <div class="container div-color divider"></div>
 
     <br>
     <br>
@@ -222,7 +243,22 @@
     </footer>
 
     <script src="../static/js/Imagenes.js"></script>
-
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="../static/js/main.js"></script>
-
+    <!--
+    <script>  document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, {
+          direction: 'down'
+        });
+        console.log("jhyjh");
+      });
+    </script>
+    -->
+<script>
+    $('.fixed-action-btn').floatingActionButton({
+        direction: 'bottom'
+      });
+    </script>
