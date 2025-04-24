@@ -29,7 +29,7 @@ nav {
 
 /*PERSONALIZACION DE LA BARRA DE NAVEGACION PC*/
 .navbar-custom{
-    background-color: rgb(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     box-shadow: none !important;
 }
 .nav-wrapper ul li a {
@@ -134,10 +134,7 @@ h1{
     text-align: center;
 }
 .pie{
-    background-image: url(../images/fondologo.jpg);
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position: center center;
+    background-color: #141517;
    
 }
 
