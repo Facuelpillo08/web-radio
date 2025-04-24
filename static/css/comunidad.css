@@ -18,11 +18,10 @@ body {
 	display: block;
 	position: relative;
 	z-index: 0;
-	margin: 4rem auto 0;
   padding: 5rem 4rem 0 4rem;
 	width: 100%;
-	max-width: 590px;
-	min-height: 680px;
+	max-width: 500px;
+	min-height: 700px;
 	box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.85);
 }
 
@@ -113,7 +112,7 @@ body {
 .login__label--checkbox {
 	color: rgba(255, 255, 255, 0.5);
 	text-transform: uppercase;
-	font-size: .75rem;
+	font-size: .90rem;
 	margin-bottom: 1rem;
 }
 
@@ -124,7 +123,7 @@ body {
 	margin-top: 2rem;
 	margin-left: 1rem;
 	color: #ffffff;
-	font-size: .75rem;
+	font-size: .90rem;
 	text-transform: inherit;
 }
 
@@ -209,4 +208,8 @@ margin-top: 36px;
 
 }
 
-  
+.sidenav{
+	width: 38%;
+
+
+}

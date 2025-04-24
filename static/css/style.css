@@ -161,47 +161,7 @@ height: 130px;
 
 
 }
-#caja{
-    margin-top: 40px;
-    color: #24262b;
-    
-        position: relative;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 12px 24px;
-        font-size: 16px;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        outline: none;
-        user-select: none;
-        color: #F6A938;
-        border-top-width: 0px;
-        border-right-width: 0px;
-        border-bottom-width: 2px;
-        border-left-width: 0px;
-        border-top-style: solid;
-        border-right-style: solid;
-        border-bottom-style: solid;
-        border-left-style: solid;
-        border-top-color: transparent;
-        border-right-color: transparent;
-        border-bottom-color: #F6A938;
-        border-left-color: transparent;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
-        background-color: transparent;
-}
-      
-      #caja:hover {
-        transition: all 0.3s ease;
-        border-color: #ec7d10;
-        color: #ec7d10;
-        background-color: transparent;
-      }
+
 
       .fade-transition{
         transition: opacity 1s ease-in-out; /* Transición suave de opacidad en 1 segundo */
