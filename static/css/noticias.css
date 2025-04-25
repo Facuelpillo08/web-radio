@@ -11,6 +11,7 @@
     border-radius: 8px;
     margin-bottom: 15px;
     height: 130px;
+    cursor: pointer;
 }
 .noticia .contenido {
     flex: 1;
@@ -89,9 +90,55 @@
     border-radius: 8px;
     object-fit: cover;
 }
-.publicidad img {
+
+.publicidad {
+    background-color: #fafafa;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    height: 420px;
+}
+
+.seccion-card {
+    position: absolute;
     width: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease;
+}
+
+.visible {
+    opacity: 1;
+    display: block;
+    z-index: 1;
+}
+
+.oculto {
+    opacity: 0;
+    display: none;
+    z-index: 0;
+}
+
+.card{
+    box-shadow: none;
+}
+.card:hover{
+    opacity: 0.6;
+}
+
+.card-image img {
+    max-width: 100%;
     height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.card-image {
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .boton-cargar{

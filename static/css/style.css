@@ -14,6 +14,8 @@ body{
     background-position: center center;
     color: white;
 }
+
+
 nav {
     top: 0;
     left: 0;
@@ -23,9 +25,11 @@ nav {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 10;
 }
+
+
 /*PERSONALIZACION DE LA BARRA DE NAVEGACION PC*/
 .navbar-custom{
-    background-color: rgb(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     box-shadow: none !important;
 }
 .nav-wrapper ul li a {
@@ -130,10 +134,8 @@ h1{
     text-align: center;
 }
 .pie{
-    background-image: url(../images/fondologo.jpg);
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position: center center;
+    background-color: #141517;
+   
 }
 
 /*Imagenes*/
@@ -144,7 +146,7 @@ img.fade-transition {
     height: auto;
   }
 
-  #foto1 ,#foto2,#foto3,#foto4 ,#foto5 ,#foto6,#foto7{
+  #foto1 ,#foto2,#foto3,#foto4 ,#foto5 ,#foto6,#foto7,#foto8{
     border-radius: 5%;
     height: 160px;
     width: 400px;
@@ -154,52 +156,12 @@ img.fade-transition {
     -moz-box-shadow: 2px 1px 53px 2px rgba(0,0,0,0.5);
 }
 
-#foto4, #foto5, #foto6, #foto7, #foto8{
+#foto4, #foto5, #foto6, #foto7{
 height: 130px;
 
 
 }
-#caja{
-    margin-top: 40px;
-    color: #24262b;
-    
-        position: relative;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 12px 24px;
-        font-size: 16px;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        outline: none;
-        user-select: none;
-        color: #F6A938;
-        border-top-width: 0px;
-        border-right-width: 0px;
-        border-bottom-width: 2px;
-        border-left-width: 0px;
-        border-top-style: solid;
-        border-right-style: solid;
-        border-bottom-style: solid;
-        border-left-style: solid;
-        border-top-color: transparent;
-        border-right-color: transparent;
-        border-bottom-color: #F6A938;
-        border-left-color: transparent;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
-        border-bottom-left-radius: 4px;
-        background-color: transparent;
-}
-      
-      #caja:hover {
-        transition: all 0.3s ease;
-        border-color: #ec7d10;
-        color: #ec7d10;
-        background-color: transparent;
-      }
+
 
       .fade-transition{
         transition: opacity 1s ease-in-out; /* Transición suave de opacidad en 1 segundo */
@@ -213,4 +175,25 @@ height: 130px;
         width: 100%; /* Ajusta el tamaño según necesites */
         height: auto;
       }
-    
+
+  
+.button--glass {
+    background-color: rgba(253, 99, 47, 0.2);
+    backdrop-filter: blur(10px);
+    color: var(--primary-color);
+  
+}
+
+.button--glass:hover {
+    background-color: rgba(151, 40, 216, 0.3);
+}
+
+.texto{
+    text-align: center;
+    margin-top: 100px;
+    max-width: 1300px;
+    max-height: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
