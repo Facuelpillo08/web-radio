@@ -7,7 +7,7 @@ image.addEventListener('mouseover', function() {
 
   // Esperamos un momento antes de cambiar la imagen para permitir el desvanecimiento
   setTimeout(function() {
-    image.src = '../static/images/BerissoRetro.jpg';
+    image.src = '../static/images/GQN.jpg';
     // Volvemos a hacer visible la imagen con opacidad
     image.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
@@ -18,7 +18,7 @@ image.addEventListener('mouseout', function() {
   image.style.opacity = 0;
 
   setTimeout(function() {
-    image.src = '../static/images/berisso.jpg';
+    image.src = '../static/images/gente.jpg';
     image.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
 });
@@ -36,7 +36,7 @@ image1.addEventListener('mouseover', function() {
 
   // Esperamos un momento antes de cambiar la imagen para permitir el desvanecimiento
   setTimeout(function() {
-    image1.src = '../static/images/Casiweb.jpg';
+    image1.src = '../static/images/HermosaMañana.jpg';
     // Volvemos a hacer visible la imagen con opacidad
     image1.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
@@ -47,7 +47,7 @@ image1.addEventListener('mouseout', function() {
   image1.style.opacity = 0;
 
   setTimeout(function() {
-    image1.src = '../static/images/casi.jpg';
+    image1.src = '../static/images/hermosa.jpg';
     image1.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
 });
@@ -63,7 +63,7 @@ image3.addEventListener('mouseover', function() {
 
   // Esperamos un momento antes de cambiar la imagen para permitir el desvanecimiento
   setTimeout(function() {
-    image3.src = '../static/images/FuegoWeb.jpg';
+    image3.src = '../static/images/vayanWeb.jpg';
     // Volvemos a hacer visible la imagen con opacidad
     image3.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
@@ -74,7 +74,7 @@ image3.addEventListener('mouseout', function() {
   image3.style.opacity = 0;
 
   setTimeout(function() {
-    image3.src = '../static/images/fuego.jpg';
+    image3.src = '../static/images/vayan.jpg';
     image3.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
 });
@@ -89,7 +89,7 @@ image4.addEventListener('mouseover', function() {
 
   // Esperamos un momento antes de cambiar la imagen para permitir el desvanecimiento
   setTimeout(function() {
-    image4.src = '../static/images/GenteWeb.jpg';
+    image4.src = '../static/images/AmigosAlaire.jpg';
     // Volvemos a hacer visible la imagen con opacidad
     image4.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
@@ -100,7 +100,7 @@ image4.addEventListener('mouseout', function() {
   image4.style.opacity = 0;
 
   setTimeout(function() {
-    image4.src = '../static/images/gente.jpg';
+    image4.src = '../static/images/AmigosAlaire.jpg';
     image4.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
 });
@@ -117,7 +117,7 @@ image5.addEventListener('mouseover', function() {
 
   // Esperamos un momento antes de cambiar la imagen para permitir el desvanecimiento
   setTimeout(function() {
-    image5.src = '../static/images/Hermosaweb.jpg';
+    image5.src = '../static/images/Fuegoweb.jpg';
     // Volvemos a hacer visible la imagen con opacidad
     image5.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
@@ -128,7 +128,7 @@ image5.addEventListener('mouseout', function() {
   image5.style.opacity = 0;
 
   setTimeout(function() {
-    image5.src = '../static/images/hermosa.jpg';
+    image5.src = '../static/images/fuego.jpg';
     image5.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
 });
@@ -147,7 +147,7 @@ image6.addEventListener('mouseover', function() {
 
   // Esperamos un momento antes de cambiar la imagen para permitir el desvanecimiento
   setTimeout(function() {
-    image6.src = '../static/images/VayanWeb.jpg';
+    image6.src = '../static/images/CasiMilenials.jpg';
     // Volvemos a hacer visible la imagen con opacidad
     image6.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
@@ -158,7 +158,7 @@ image6.addEventListener('mouseout', function() {
   image6.style.opacity = 0;
 
   setTimeout(function() {
-    image6.src = '../static/images/vayan.jpg';
+    image6.src = '../static/images/casi.jpg';
     image6.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
 });
@@ -197,7 +197,7 @@ image9.addEventListener('mouseover', function() {
 
   // Esperamos un momento antes de cambiar la imagen para permitir el desvanecimiento
   setTimeout(function() {
-    image9.src = '../static/images/fuegoweb.jpg';
+    image9.src = '../static/images/BerissoRetro2.jpg';
     // Volvemos a hacer visible la imagen con opacidad
     image9.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
@@ -208,7 +208,7 @@ image9.addEventListener('mouseout', function() {
   image9.style.opacity = 0;
 
   setTimeout(function() {
-    image9.src = '../static/images/fuego.jpg';
+    image9.src = '../static/images/berisso.jpg';
     image9.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
 });
