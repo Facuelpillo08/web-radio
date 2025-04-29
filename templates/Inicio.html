@@ -50,6 +50,24 @@
             </div>
         </nav>
     </div>
+    
+    <!--botonflotante-->
+    <div class="fixed-action-btn direction-left">
+        <a class="btn-floating btn-large btn-flat">
+            <i class="fa-solid fa-comments"></i>
+        </a>
+        <ul>
+          <li><a class="btn-floating btn-flat"><i class="fab fa-facebook fa-2x"></i></a></li>
+          <li><a class="btn-floating btn-flat"><i class="fab fa-x-twitter fa-2x"></i></a></li>
+          <li><a class="btn-floating btn-flat"><i class="fab fa-twitch fa-2x"></i></a></li>
+          <li><a class="btn-floating btn-flat"><i class="fab fa-instagram fa-2x"></i></a></li>
+          <li><a class="btn-floating btn-flat"><i class="fab fa-youtube fa-2x"></i></a></li>
+          <li><a class="btn-floating btn-flat"><i class="fab fa-whatsapp fa-2x"></i></a></li>
+        </ul>
+      </div>
+      
+    </div>
+
     <!-- menu mobile-->
     <ul id="mobile-navbar" class="sidenav">
         <li><a href="noticias.html">Noticias</a></li>
@@ -287,6 +305,17 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 </script>
+
+<script> document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {
+      direction: 'left',
+      hoverEnabled: false
+    });
+  });
+        
+</script>
+
 
 
 </body>

@@ -270,3 +270,15 @@ img.fade-transition {
     justify-content: center;
     position: relative;
   }
+  .fixed-action-btn{
+    position: absolute;
+    right: 0px;
+    top: 23px;
+    padding-top: 15vh;
+    margin-bottom: 0;
+    margin-right: 10px;
+   
+}
+
+  
+

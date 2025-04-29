@@ -42,15 +42,17 @@
             </div>
         </nav>
     <!--botonflotante-->
-        <div class="fixed-action-btn direction-down">
-            <a class="btn-floating btn-large red">
-              <i class="large material-icons">mode_edit</i>
+        <div class="fixed-action-btn direction-left">
+            <a class="btn-floating btn-large btn-flat">
+                <i class="fa-solid fa-comments"></i>
             </a>
             <ul>
-              <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-              <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-              <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-              <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+              <li><a class="btn-floating btn-flat"><i class="fab fa-facebook fa-2x"></i></a></li>
+              <li><a class="btn-floating btn-flat"><i class="fab fa-x-twitter fa-2x"></i></a></li>
+              <li><a class="btn-floating btn-flat"><i class="fab fa-twitch fa-2x"></i></a></li>
+              <li><a class="btn-floating btn-flat"><i class="fab fa-instagram fa-2x"></i></a></li>
+              <li><a class="btn-floating btn-flat"><i class="fab fa-youtube fa-2x"></i></a></li>
+              <li><a class="btn-floating btn-flat"><i class="fab fa-whatsapp fa-2x"></i></a></li>
             </ul>
           </div>
           
@@ -240,18 +242,15 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="../static/js/main.js"></script>
-    <!--
-    <script>  document.addEventListener('DOMContentLoaded', function() {
+    
+    <script> document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.fixed-action-btn');
         var instances = M.FloatingActionButton.init(elems, {
-          direction: 'down'
+          direction: 'left',
+          hoverEnabled: false
         });
-        console.log("jhyjh");
       });
+            
     </script>
-    -->
-<script>
-    $('.fixed-action-btn').floatingActionButton({
-        direction: 'bottom'
-      });
-    </script>
+    
+
