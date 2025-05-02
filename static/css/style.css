@@ -30,7 +30,10 @@ nav {
 /*PERSONALIZACION DE LA BARRA DE NAVEGACION PC*/
 .navbar-custom{
     background-color: rgba(0, 0, 0, 0);
-    box-shadow: none !important;
+    box-shadow: -1px 5px 48px 5px rgba(0,0,0,0.76);
+-webkit-box-shadow: -1px 5px 48px 5px rgba(0,0,0,0.76);
+-moz-box-shadow: -1px 5px 48px 5px rgba(0,0,0,0.76);
+  
 }
 .nav-wrapper ul li a {
     background-color: transparent;
@@ -210,22 +213,22 @@ img.fade-transition {
 
 /* boton suscribite */ 
 #boton-suscribete{
-    background-color: transparent;
-    --color: #7323ce;
+
+    --color: #421edf;
     font-family: inherit;
     display: inline-block;
     width: 10em;
     height: 3em;
     line-height: 2.5em;
     margin: 20px;
-    position: absolute;
+    position: relative;
     cursor: pointer;
     overflow: hidden;
     border: 2px solid var(--color);
     transition: color 0.5s;
     z-index: 1;
-    font-size: 17px;
-    border-radius: 6px;
+    font-size: 18px;
+    border-radius: 9px;
     font-weight: 500;
     color: var(--color);
     left: 0;
@@ -240,7 +243,7 @@ img.fade-transition {
     background: var(--color);
     height: 150px;
     width: 200px;
-    border-radius: 50%;
+    border-radius: 70%;
   }
   
   #boton-suscribete:hover {
@@ -254,23 +257,24 @@ img.fade-transition {
   }
   
   #boton-suscribete:hover:before {
-    top: -40px;
+    top: -50px;
     left: -20px;
+  
   }
   
   #boton-suscribete:active:before {
-    background: #3a0ca3;
+    background: #000000;
     transition: background 0s;
   }
   
 
-  .header {
+.header {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-  }
-  .fixed-action-btn{
+ }
+.fixed-action-btn{
     position: absolute;
     right: 0px;
     top: 23px;

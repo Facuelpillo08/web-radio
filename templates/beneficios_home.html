@@ -18,14 +18,20 @@
 </head>
 
 <body> 
-    <div style="text-align: center;">
-        <a href="Inicio.html"><img decoding="sync" src="../static/images/logo.png"  style=" height: 150px; width: auto;" alt="Inicio"></a>
-      </div>
+    <div class="header">
+        <button href="#" data-target="slide-out" class="sidenav-trigger show-on-large"  id="boton-suscribete">SUSCRIBETE</button>
+  <div class="logo">
+    <a href="Inicio.html">
+      <img src="../static/images/logo.png" style="height: 150px; width: auto;" alt="Inicio">
+    </a>
+  </div>
+</div>
+    
     <!--Barra de navegacion-->
     <div class="navbar">
         <nav class="navbar-custom">
             <div class="nav-wrapper">
-                <div class="container">
+                <div class="">
                     <!-- icon mobile-->
                     <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
                         <i class="material-icons center">menu</i>
@@ -36,7 +42,7 @@
                         <li><a class="button button--glass"  href="newsletter.html">Newsletter</a></li>
                         <li class="selec-navbar"><a class="button button--glass"  href="Beneficios_home.html">Beneficios</a></li>
                         <li><a class="button button--glass"  href="nosotros.html">Nosotros</a></li>
-                        <li><a href="comunidad.html" class="background-white btn">Únete</a></li>
+                   
                     </ul>
                 </div>
             </div>
@@ -70,30 +76,23 @@
     </ul>
     <br>
     <!-- comienzo de beneficios!-->
-        <div id="img-beneficios" class="container">
-        <div class="beneficio" class="row"> 
-            <div class="col s12 m7" class="responsive-img">
-                <a href="https://www.helvegenargentina.com/?srsltid=AfmBOorbSqN2bNK-0-AR2nIiwwHSq258NwiLJlH5XJf2uf2v7rh1COuA    ">
-                    <img  class="aline" src="../static/images/helvegen.jpg" alt="" >
-                    
-                </a>
-                <h5 style="color: white;" class="aline">¡10% Off en todas las remeras de la Web!</h5>
-            </div>    
-            <div class="col s12  " class="responsive-img">
-                <a href="https://inversanet.com.ar/?srsltid=AfmBOoqG7v2Z2oe8pgQcuHyPZQ-yA2gtCBc2U-hOGGDGReB7bZq7ElA">
-                    <img  class="aline1" src="../static/images/inversa.webp" alt="">
-                    
-                </a>
-                <h5 style="color: white;" class="aline1">¡15% off en efectivo!</h5>         
-            </div>
-            <div class=" col s12 " class="responsive-img">         
-                <a href="https://www.instagram.com/pizzagrillbsso/">
-                    <img  class="aline2" src="../static/images/pizza oferta.jpg" alt="">   
-                </a>
-                <h5 style="color: white;" class="aline2">¡10% Off en todas las remeras de la Web!</h5>
-            </div>    
+    <div class="container" style="width:90%">
+    <div class="row">
+        <div class="col s4">
+           <a href=""> <img class="responsive-img" style="height: 200px; width: 380px;" src="../static/images/inversa.webp" alt=""></a>
+             <h5 style="font-size: medium; text-align: center;">15% off en efectivo</h5>
         </div>
+        <div class="col s4">
+            <a href=""> <img class="responsive-img" style="height: 200px; width: 380px;" src="../static/images/pizza oferta.jpg" alt=""></a>
+            <h5 style="font-size: medium; text-align: center;">15% off en pizzas seleccionadas</h5>
         </div>
+        <div class="col s4">
+            <a href=""> <img class="responsive-img" style="height: 200px; width: 380px;" src="../static/images/helvegen.jpg" alt=""></a>
+            <h5 style="font-size: medium; text-align: center;">10% Off en todas las remeras de la Web</h5>
+        </div>
+     
+      </div>
+    </div>
         
         <!--Pie de pagina-->
             <footer class="page-footer pie">
