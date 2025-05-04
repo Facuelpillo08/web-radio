@@ -216,7 +216,7 @@ img.fade-transition {
 
     --color: #421edf;
     font-family: inherit;
-    display: inline-block;
+    display: flex;
     width: 10em;
     height: 3em;
     line-height: 2.5em;
@@ -232,7 +232,8 @@ img.fade-transition {
     font-weight: 500;
     color: var(--color);
     left: 0;
-    margin-left: 130px;
+    margin-left: 100px;
+    
     
   }
   
