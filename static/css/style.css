@@ -8,10 +8,10 @@ html {
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    background-image: url(../images/fondochill.jpg);
+    background-image: url(../images/fondo\ 4.png);
     background-size: cover;
-    background-repeat:no-repeat;
-    background-position: center center;
+
+    background-position: center;
     color: white;
 }
 
