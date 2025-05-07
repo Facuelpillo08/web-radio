@@ -18,7 +18,7 @@ image.addEventListener('mouseout', function() {
   image.style.opacity = 0;
 
   setTimeout(function() {
-    image.src = '../static/images/gente.jpg';
+    image.src = '../static/images/gqnlogo.png';
     image.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
 });
@@ -47,7 +47,7 @@ image1.addEventListener('mouseout', function() {
   image1.style.opacity = 0;
 
   setTimeout(function() {
-    image1.src = '../static/images/hermosa.jpg';
+    image1.src = '../static/images/hermosalogo.png';
     image1.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
 });
@@ -128,7 +128,7 @@ image5.addEventListener('mouseout', function() {
   image5.style.opacity = 0;
 
   setTimeout(function() {
-    image5.src = '../static/images/fuego.jpg';
+    image5.src = '../static/images/fuegologo.png';
     image5.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
 });
@@ -158,7 +158,7 @@ image6.addEventListener('mouseout', function() {
   image6.style.opacity = 0;
 
   setTimeout(function() {
-    image6.src = '../static/images/casi.jpg';
+    image6.src = '../static/images/casilogo.png';
     image6.style.opacity = 1;
   }, 1000); // El mismo tiempo que la transición de opacidad
 });

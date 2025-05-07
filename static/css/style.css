@@ -207,7 +207,8 @@ img.fade-transition {
 }
 
 #navbar-items{
-    background-color: rgba(83, 12, 150, 0.89);
+    background-color: rgba(0, 0, 0, 0.89);
+    
 }
 
 
@@ -285,5 +286,7 @@ img.fade-transition {
    
 }
 
-  
+#foto1, #foto2, #foto4,#foto6{
+    background-color: #000000;
+}
 
