@@ -8,9 +8,8 @@ html {
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    background-image: url(../images/fondo\ 4.png);
+    background-color: white;
     background-size: cover;
-
     background-position: center;
     color: white;
 }
@@ -58,9 +57,11 @@ nav {
     background-color: black !important;
 }
 .center-navbar{
+    
     display: flex;
     justify-content: center;
     width: 100%;
+    
 }
 .sidenav{
     background-color: #141517;
@@ -271,6 +272,7 @@ img.fade-transition {
   
 
 .header {
+    background-image: url(../images/FONDO\ CIUDAD\ URBANA.png);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -286,7 +288,7 @@ img.fade-transition {
    
 }
 
-#foto1, #foto2, #foto4,#foto6{
+#foto1, #foto2, #foto4,#foto6,#foto8{
     background-color: #000000;
 }
 
