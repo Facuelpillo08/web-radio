@@ -8,10 +8,10 @@ html {
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: white;
+    background-color: rgb(99, 35, 172);
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -38,6 +38,8 @@ nav {
 .nav-wrapper ul li a {
     background-color: transparent;
     box-shadow: none;
+    font-size: medium;
+    font-weight: 600;
 }
 .background-white{
     background-color: white !important;
@@ -153,11 +155,7 @@ h1{
 
 /*Imagenes*/
 
-img.fade-transition {
-    position: relative;
-    width: 100%; /* Ajusta el tamaño según necesites */
-    height: auto;
-  }
+  
 
   #foto1 ,#foto2,#foto3,#foto4 ,#foto5 ,#foto6,#foto7,#foto8{
     border-radius: 5%;
@@ -169,23 +167,6 @@ img.fade-transition {
     -moz-box-shadow: 2px 1px 53px 2px rgba(0,0,0,0.5);
 }
 
-
-
-
-
-
-      .fade-transition{
-        transition: opacity 1s ease-in-out; /* Transición suave de opacidad en 1 segundo */
-        opacity: 0,5; /* Inicialmente visible */
-    
-        
-    }
-    
-    img.fade-transition {
-        position: relative;
-        width: 100%; /* Ajusta el tamaño según necesites */
-        height: auto;
-      }
 
   
 .button--glass {
@@ -224,19 +205,20 @@ img.fade-transition {
     height: 3em;
     line-height: 2.5em;
     margin: 20px;
-    position: relative;
     cursor: pointer;
     overflow: hidden;
     border: 2px solid var(--color);
     transition: color 0.5s;
-    z-index: 1;
     font-size: 18px;
     border-radius: 9px;
     font-weight: 500;
     color: var(--color);
-    left: 0;
     margin-left: 100px;
-    
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-100%);
+    z-index: 2;
     
   }
   
@@ -278,7 +260,16 @@ img.fade-transition {
     align-items: center;
     justify-content: center;
     position: relative;
+    height: 190px;
  }
+
+
+.logo2  {
+    text-align: center;
+    z-index: 1;
+
+
+} 
 .fixed-action-btn{
     position: absolute;
     right: 0px;
@@ -289,7 +280,7 @@ img.fade-transition {
    
 }
 
+
 #foto1, #foto2, #foto4,#foto6,#foto8{
     background-color: #000000;
 }
-
