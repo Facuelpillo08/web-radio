@@ -1,0 +1,13 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const btnFloat = document.querySelector("#btn-float");
+
+  function handleResize() {
+    if (window.innerWidth <= 630) {
+      btnFloat.setAttribute("class", "fixed-action-btn direction-top boton-redes");
+    } else {
+        btnFloat.setAttribute("class", "fixed-action-btn direction-buttom boton-redes");
+    }
+  }
+  handleResize();
+  window.addEventListener("resize", handleResize);
+});

@@ -13,4 +13,4 @@ setInterval(() => {
 
     // pasar a siguiete
     indiceActual = (indiceActual + 1) % secciones.length;
-}, 4000);
+}, 2000);
