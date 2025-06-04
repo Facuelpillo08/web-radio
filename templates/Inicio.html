@@ -19,55 +19,55 @@
 </head>
 
 <body>
-   
-  <div class="header">
-        <button href="#" data-target="slide-out" class="sidenav-trigger show-on-large"  id="boton-suscribete">SUSCRIBETE</button>
-  <div class="logo">
-    <a href="Inicio.html">
-      <img class="logo2" src="../static/images/logo2.PNG" style="height: 90px; width: 170px; " alt="Inicio">
-    </a>
-  </div>
-</div>
 
+    <div class="header">
+        <!-- boton suscribirse -->
+        <div class="div-suscribirse">
+            <button href="#" data-target="slide-out" class="sidenav-trigger show-on-large boton-suscribete">SUSCRIBETE</button>
+        </div>
+        
+        <!-- logo inicio -->
+        <div class="div-logo">
+            <a href="Inicio.html"><img class="logo" src="../static/images/logo2.PNG" alt="Inicio"></a>
+        </div>
 
-    
-
+        <!--botonflotante -->
+        <div class="div-redes">
+            <div class="fixed-action-btn" id="btn-float">
+                <a class="btn-floating btn-large btn-flat white border-icon">
+                    <i class="fa-solid fa-comments color-comments"></i>
+                </a>
+                <ul>
+                    <li><a href="https://www.facebook.com/people/Ciudad-Urbana/100081934966603/?ti=as" class="btn-floating btn-flat"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    <li><a href="https://x.com/ciudadurbana_ok" class="btn-floating btn-flat"><i class="fab fa-x-twitter fa-2x"></i></a></li>
+                    <li><a href="https://www.twitch.tv/ciudadurbana" class="btn-floating btn-flat"><i class="fab fa-twitch fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com/ciudadurbana96.1/" class="btn-floating btn-flat"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://www.youtube.com/@ciudadurbana96.1" class="btn-floating btn-flat"><i class="fab fa-youtube fa-2x"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=542216438319&text&type=phone_number&app_absent=0" class="btn-floating btn-flat"><i class="fab fa-whatsapp fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
 
     <!--Barra de navegacion-->
     <div class="navbar">
         <nav class="navbar-custom">
             <div class="nav-wrapper">
-                <div class="">
+                <div class="nav valign-wrapper">
                     <!-- icon mobile-->
-                    <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
+                    <a href="#" data-target="mobile-navbar" class="sidenav-trigger icon-mobile">
                         <i class="material-icons center">menu</i>
                     </a>
 
-                    <ul id="navbar-items" class="hide-on-med-and-down center-navbar">
+                    <ul id="navbar-items" class="hide-on-mobile center-navbar">
                         <li><a class="button button--glass" href="newsletter.html">NEWSLETTER</a></li>
                         <li ><a class="button button--glass" href="Beneficios_home.html">BENEFICIOS</a></li>
                         <li><a class="button button--glass" href="nosotros.html">NOSOTROS</a></li>
-                       
+                    </ul>
                 </div>
             </div>
         </nav>
-    </div>
-    
-    <!--botonflotante-->
-    <div class="fixed-action-btn direction-left">
-        <a class="btn-floating btn-large btn-flat">
-            <i class="fa-solid fa-comments"></i>
-        </a>
-        <ul>
-          <li><a href="https://www.facebook.com/people/Ciudad-Urbana/100081934966603/?ti=as" class="btn-floating btn-flat"><i class="fab fa-facebook fa-2x"></i></a></li>
-          <li><a href="https://x.com/ciudadurbana_ok" class="btn-floating btn-flat"><i class="fab fa-x-twitter fa-2x"></i></a></li>
-          <li><a href="https://www.twitch.tv/ciudadurbana" class="btn-floating btn-flat"><i class="fab fa-twitch fa-2x"></i></a></li>
-          <li><a href="https://www.instagram.com/ciudadurbana96.1/" class="btn-floating btn-flat"><i class="fab fa-instagram fa-2x"></i></a></li>
-          <li><a href="https://www.youtube.com/@ciudadurbana96.1" class="btn-floating btn-flat"><i class="fab fa-youtube fa-2x"></i></a></li>
-          <li><a href="https://api.whatsapp.com/send/?phone=542216438319&text&type=phone_number&app_absent=0" class="btn-floating btn-flat"><i class="fab fa-whatsapp fa-2x"></i></a></li>
-        </ul>
-      </div>
-      
     </div>
 
     <!-- menu mobile-->
@@ -75,23 +75,30 @@
         <li><a href="newsletter.html">Newsletter</a></li>
         <li><a href="Beneficios_home.html">Beneficios</a></li>
         <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="comunidad.html" class="background-white btn">Únete</a></li>
+        <li><a href="#modal-comunidad" class="btn btn-sidenav modal-trigger">SUSCRIBETE</a></li>
     </ul>
 
     <br>
-    <div class="center">
-        <iframe width="768" height="480" src="https://solumedia.com/video/ciudadurbana/index.html"title="Radio en vivo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- Transmision -->
+    <div class="container">
+        <div class="center transmision-container">
+            <iframe src="https://solumedia.com/video/ciudadurbana/index.html" title="Radio en vivo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </div>
-
-
-    <div class="container center" style="width:90%">
-        <h1 class="title-header">PROGRAMACIÓN</h1>
-    </div>
-    <div class="container div-color divider"  style="width:80%"></div>
+    
 
     <!--progamacion de la radio-->
-    <div class="container" style="width:80%">
+    <div class="div-title container center">
+        <h1 class="title">PROGRAMACIÓN</h1>
+    </div>
+
+    <div class="container div-color divider"></div>
+
+    <div class="container">
         <div class="row">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
           <div class="col  s3">
             <a href="GQN.html">
              <img id="foto1" class="fade-transition responsive-img" src="../static/images/gqnlogo.png" alt="">
@@ -113,48 +120,68 @@
           <div class="col s3">
                 <a href="https://www.youtube.com/playlist?list=PLPujlNHhlLoZ8zhYzpSqOECMi1O06dhV0">
                  <img id="foto8" class="fade-transition responsive-img" src="../static/images/berissologo.PNG" alt="">
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/@ciudadurbanafm96.16/featured">
+                    <img id="foto1" class="fade-transition responsive-img" src="../static/images/gqnlogo.png" alt="">
                 </a>
-          </div>
-       
-         </div>
-       
-         <div class="row">
-       
-           <div class="col  s3">
-            <a href="https://www.youtube.com/playlist?list=PLPujlNHhlLoYldCViCqBHOAliFlWN8U6Z">
-             <img id="foto4" class="fade-transition responsive-img" src="../static/images/fuegologo.png" alt="">
-            </a>
             </div>
-       
-            <div class="col s3">
-             <a href="https://www.youtube.com/@ciudadurbanafm96.16/featured">
-              <img id="foto5" class="fade-transition responsive-img" src="../static/images/tallando.jpg" alt="">
-             </a>
-             </div>
-       
-             <div class="col s3">
-               <a href="https://www.youtube.com/@ciudadurbanafm96.16/featured">
-                <img id="foto6" class="fade-transition responsive-img" src="../static/images/casilogo.png" alt="">
-               </a>
-               </div>
-       
-               <div class="col s3">
-                 <a href="GQN.html">
-                  <img id="foto7" class="fade-transition responsive-img" src="../static/images/amigosalairelogo.jpg" alt="">
-                 </a>
-                 </div>
-       
-         </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/@ciudadurbanafm96.16/featured">
+                    <img id="foto2" class="fade-transition responsive-img" src="../static/images/hermosalogo.png" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/playlist?list=PLPujlNHhlLoZ8zhYzpSqOECMi1O06dhV0">
+                    <img id="foto3" class="fade-transition responsive-img" src="../static/images/vayan.jpg" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/playlist?list=PLPujlNHhlLoZ8zhYzpSqOECMi1O06dhV0">
+                    <img id="foto8" class="fade-transition responsive-img" src="../static/images/berissologo.PNG" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/playlist?list=PLPujlNHhlLoYldCViCqBHOAliFlWN8U6Z">
+                    <img id="foto4" class="fade-transition responsive-img" src="../static/images/fuegologo.png" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/@ciudadurbanafm96.16/featured">
+                    <img id="foto5" class="fade-transition responsive-img" src="../static/images/tallando.jpg" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/@ciudadurbanafm96.16/featured">
+                    <img id="foto6" class="fade-transition responsive-img" src="../static/images/casilogo.png" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="GQN.html">
+                    <img id="foto7" class="fade-transition responsive-img" src="../static/images/amigosalairelogo.jpg" alt="">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+                </a>
+            </div>
         </div>
-         <!--noticias-->
-         <div class="container center" style="width:90%">
-          <h1 class="title-header">NOTICIAS</h1>
-      </div>
-      <div class="container div-color divider"  style="width:80%"></div>
+    </div>
+    <!--noticias-->
+    <div class="container center">
+        <h1 class="title-header">NOTICIAS</h1>
+    </div>
+    <div class="container div-color divider"></div>
 
 
-        <div class="container" style="margin-top: 3%;">
-
+    <div class="container" style="margin-top: 3%;">
           <div class="row">
               <div class="col s12">
                   <div class="noticia noticia-destacada">
@@ -215,7 +242,7 @@
                   </div>
               </div>
       
-              <div class="col s12 m3 publicidad">
+              <div class="col m3 publicidad hide-on-small-only">
                   <div class="seccion-card visible">
                       <div class="card">
                           <div class="card-image">
@@ -317,112 +344,191 @@
                   </div>
               </div>
           </div>
-          <div class="row">
-              <div class="col s12">
-                  <button class="boton-cargar waves-effect waves-light">Ver más <i class="material-icons">expand_more</i></button>
-              </div>
-          </div>
       </div>
   
-
-
-
-    <div style="margin-top: px;" class="container center">
-        <video class="publi" width="500px" height="300" autoplay="" loop="" muted="" src="https://ciudadurbana.com/wp-content/uploads/2024/06/pantalla-ciudad-online-video-cutter.com_.mp4"></video>
-        
+    <div class=" container">
+        <div class="div-publi center">
+            <video class="publi center-align" autoplay="" loop="" muted="" src="https://ciudadurbana.com/wp-content/uploads/2024/06/pantalla-ciudad-online-video-cutter.com_.mp4"></video>
         </div>
-         <!--comunidad-->
+    </div>
+    <div class="container">
+        
+    </div>
+
+    <!-- Modal Comunidad -->
+    <div id="modal-comunidad" class="modal" style="background-color:#6323ac">
+        <div class="modal-content">
+            <div class="row">
+                <form class="col s12">
+                    <h5>INGRESA A NUESTRA COMUNIDAD</h5>
+                    <div class="row">
+                        <div class="input-field col s7">
+                            <i class="material-icons prefix">person</i>
+                            <input id="nombre" type="text" class="validate">
+                            <label for="nombre">Nombre</label>
+                        </div>
+                        <div class="input-field col s5">
+                            <input id="apellido" type="text" class="validate">
+                            <label for="apellido">Apellido</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">location_city</i>
+                            <input id="domicilio" type="text" class="validate">
+                            <label for="domicilio">Domicilio</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">local_phone</i>
+                            <input id="whatsapp" type="text" class="validate">
+                            <label for="whatsapp">Whatsapp</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mail</i>
+                            <input id="mail" type="text" class="validate">
+                            <label for="mail">Correo Electrónico</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            <h6">¿CUÁNTO VAS A DONAR?</h6>
+                            <br><br>
+                            <div class="row">
+                                <div class="col s6">
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio"  />
+                                            <span>$500</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio"  />
+                                            <span>$1000</span>
+                                        </label>
+                                    </p>
+                                </div>
+                                <div class="col s6">
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio"  />
+                                            <span>$3000</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio"  />
+                                            <span>$5000</span>
+                                        </label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">message</i>
+                            <input id="mensaje" type="text" class="validate" placeholder="">
+                            <label for="mensaje">Mensaje:</label>
+                        </div>
+                        <div class="col s12">
+                        <p class="checked">
+                            <label>
+                                <input type="checkbox" class="filled-in" />
+                                <span>He leído y acepto la política de privacidad</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="col s12 center">
+                        <button class="btn">INGRESAR</button>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+        <!--comunidad-->
         <ul id="slide-out" class="sidenav">
             <div class="login-container">
                 <form action="" class="form-login">
-                
-                    <label for="login-input-user" class="login__label">
-                        Nombre
-                    </label>
+
                     <input id="login-input-user" class="login__input" type="text" />
-            
-                    <label for="login-input-user" class="login__label">
-                        Apellido
-                    </label>
+                    <label for="login-input-user" class="login__label">Nombre</label>
+                    
                     <input id="login-input-user" class="login__input" type="text" />
-            
-                    <label for="login-input-user" class="login__label">
-                        Dirección
-                    </label>
+                    <label for="login-input-user" class="login__label">Apellido</label>
+                    
                     <input id="login-input-user" class="login__input" type="text" />
-            
-                    <label for="login-input-user" class="login__label">
-                        whatsapp
-                    </label>
+                    <label for="login-input-user" class="login__label">Dirección</label>
+                    
                     <input id="login-input-user" class="login__input" type="text" />
-            
-                    <label for="login-input-password" class="login__label">
-                        Email
-                    </label>
+                    <label for="login-input-user" class="login__label">whatsapp</label>
+
                     <input id="login-input-password" class="login__input" type="password" />
+                    <label for="login-input-password" class="login__label">Email</label>
+                    
             
-                    <h4>¿cuanto vas a donar?</h4>
+                    <h4>¿Cuánto vas a donar?</h4>
             
                     <p>
                         <label>
-                          <input class="with-gap" name="group1" type="radio"  />
+                          <input class="with-gap custom-radio" name="group1" type="radio"  />
                           <span>$500</span>
                         </label>
                     </p>
             
                     <p>
                         <label>
-                          <input class="with-gap" name="group1" type="radio"  />
+                          <input class="with-gap custom-radio" name="group1" type="radio"  />
                           <span>$1000</span>
                         </label>
                     </p>
             
                     <p>
                         <label>
-                          <input class="with-gap" name="group1" type="radio"  />
+                          <input class="with-gap custom-radio" name="group1" type="radio"  />
                           <span>$2000</span>
                         </label>
                     </p>
             
                     <p>
                         <label>
-                          <input class="with-gap" name="group1" type="radio"  />
+                          <input class="with-gap custom-radio" name="group1" type="radio"  />
                           <span>$3000</span>
                         </label>
                     </p>
             
-                    <h5>Mensaje a nuestra comunidad</h5>
+                    <h5>Mensaje para nuestra comunidad</h5>
                     <input id="sa" class="login__input" type="text" />
             
-                    <p  class="checked">
+                    <p class="checked">
                         <label>
-                          <input type="checkbox" class="filled-in" checked="checked" />
-                          <span>He leido y acepto la politica de privacidad</span>
+                            <input type="checkbox" class="filled-in" />
+                            <span>He leído y acepto la política de privacidad</span>
                         </label>
-                      </p>
-            
+                    </p>
                     <button class="login__submit" disabled>INGRESAR</button>
                 </form>
-
-
-
-          </ul>
+            </div>
+        </ul>
         
      
      
 
-<footer style="margin-top: 70px;" class="page-footer pie">
+    <footer class="page-footer pie">
         <div class="container">
+            <br>
             <div class="row">
-                <div class="col l4 s12 foot-1 center">
-                    <div class="foot-1b valign-wrapper">
-                        <img  class="center" style="height: 80px; width: 110px;" src="../static/images/logo2.PNG">
-                    </div>
-                    <div class="foot-1a valign-wrapper center">
-                        <div>
-                            <h6 class="foot-h5">Sintoniza y disfruta.</h6>
-                            <p>Radio 96.1</p>
-                            <p>Ciudad Urbana</p>
+                <div class="col l4 s12">
+                    <div style="display: flex; align-items: center;">
+                        <div style="flex: 1; text-align: right;">
+                            <img src="../static/images/logo2.PNG" style="max-height: 80px; margin-top: 8%">
+                        </div>
+                        <div style="flex: 1; padding-left: 10px;">
+                            <div>
+                                
+                                <p style="font-weight: 600;">Radio 96.1</p>
+                                <p>Ciudad Urbana</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -449,6 +555,7 @@
                     </div>
                 </div>
             </div>
+            <br>
         </div>
         <div class="footer-copyright">
             <div class="container center">
@@ -458,6 +565,7 @@
     </footer>
 
     <script src="../static/js/Imagenes.js"></script>
+    <script src="../static/js/publicidad.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="../static/js/main.js"></script>
@@ -491,7 +599,12 @@ document.addEventListener('DOMContentLoaded', function () {
         
 </script>
 
-
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
+  });
+</script>
 
 </body>
 </html>
