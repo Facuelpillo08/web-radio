@@ -57,8 +57,8 @@ nav {
     justify-content: center;
     width: 100%;
 }
-
 .sidenav{
+    padding-top: 5%;
     background-color: #141517;
 }
 .sidenav li a{
@@ -66,12 +66,11 @@ nav {
 }
 .btn-sidenav{
     font-size: 12px !important;
-    font-weight: 600 !important;
-    padding: 3px;
+    font-weight: 700 !important;
     background-color: #fff;
     color: #421edf !important;
     border-radius: 9px;
-    padding: 0 10px !important;
+    padding: 0 10% !important;
     border: 2px solid #421edf;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -227,13 +226,6 @@ nav {
     transition: background 0s;
 }
 
-
-.logo2  {
-    text-align: center;
-    z-index: 1;
-
-} 
-
 @media (max-width: 630px) {
   .div-suscribirse .boton-suscribete{
     display: none;
@@ -265,15 +257,13 @@ nav {
     max-height: 1700px;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 
 .card{
-
     width: 100%;
     max-width: 900px;
-     margin: 0 auto;
+    margin: 0 auto;
     padding: 20px;
     background: rgba(255,255,255,0.1);
     box-shadow: 0 8px 32px rgba(0,0,0,0.25);
@@ -287,10 +277,6 @@ nav {
 
 .card h2{
     margin: 0;
-    
-
-
-
 }
 
 
@@ -298,6 +284,7 @@ nav {
 /* logo */
 
 .div-logo{
+    z-index: 5;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -364,4 +351,9 @@ h1 {
   .icon-mobile {
     display: none !important;
   }
+}
+
+.logo-menu-mobile{
+    width: 100%;
+    height: auto;
 }
