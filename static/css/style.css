@@ -15,16 +15,6 @@ body{
     color: rgb(255, 255, 255);
 }
 
-.header {
-    background-image: url(../images/FONDO\ CIUDAD\ URBANA.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 180px;
-}
-
-
 nav {
     top: 0;
     left: 0;
@@ -279,44 +269,6 @@ nav {
 
 }
 
-/* logo */
-
-.div-logo{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logo{
-    height: 60%;
-    width: auto;
-    max-width: 170px;
-    margin-top: 12%;
-}
-
-@media (min-height: 800px){
-    .header{
-        max-height: 185px;
-    }
-}
-
-.transmision-container{
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    position: relative;
-}
-.transmision-container iframe{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-.div-title{
-    width: 100%;
-}
 
 .texto{
     text-align: center;
@@ -354,45 +306,6 @@ nav {
 }
 
 
-
-/* logo */
-
-.div-logo{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logo{
-    height: 60%;
-    width: auto;
-    max-width: 170px;
-    margin-top: 12%;
-}
-
-@media (min-height: 800px){
-    .header{
-        max-height: 185px;
-    }
-}
-
-.transmision-container{
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    position: relative;
-}
-.transmision-container iframe{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-.div-title{
-    width: 100%;
-}
 
 /* logo */
 
