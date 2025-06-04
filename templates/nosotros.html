@@ -18,52 +18,53 @@
 
 <body>
     <div class="header">
-        <button href="#" data-target="slide-out" class="sidenav-trigger show-on-large"  id="boton-suscribete">SUSCRIBETE</button>
-  <div class="logo">
-    <a href="Inicio.html">
-      <img src="../static/images/logo2.PNG" style="height: 90px; width: 170px; " alt="Inicio">
-    </a>
-  </div>
-</div>
-    
+        <!-- boton suscribirse -->
+        <div class="div-suscribirse">
+            <button href="#" data-target="slide-out" class="sidenav-trigger show-on-large boton-suscribete">SUSCRIBETE</button>
+        </div>
+        
+        <!-- logo inicio -->
+        <div class="div-logo">
+            <a href="Inicio.html"><img class="logo" src="../static/images/logo2.PNG" alt="Inicio"></a>
+        </div>
+
+        <!--botonflotante -->
+        <div class="div-redes valign-wrapper">
+            <div class="fixed-action-btn" id="btn-float">
+                <a class="btn-floating btn-large btn-flat white border-icon">
+                    <i class="fa-solid fa-comments color-comments"></i>
+                </a>
+                <ul>
+                    <li><a href="https://www.facebook.com/people/Ciudad-Urbana/100081934966603/?ti=as" class="btn-floating btn-flat"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    <li><a href="https://x.com/ciudadurbana_ok" class="btn-floating btn-flat"><i class="fab fa-x-twitter fa-2x"></i></a></li>
+                    <li><a href="https://www.twitch.tv/ciudadurbana" class="btn-floating btn-flat"><i class="fab fa-twitch fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com/ciudadurbana96.1/" class="btn-floating btn-flat"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://www.youtube.com/@ciudadurbana96.1" class="btn-floating btn-flat"><i class="fab fa-youtube fa-2x"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=542216438319&text&type=phone_number&app_absent=0" class="btn-floating btn-flat"><i class="fab fa-whatsapp fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
 
     <!--Barra de navegacion-->
     <div class="navbar">
         <nav class="navbar-custom">
             <div class="nav-wrapper">
-                <div class="">
+                <div class="nav valign-wrapper">
                     <!-- icon mobile-->
-                    <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
+                    <a href="#" data-target="mobile-navbar" class="sidenav-trigger icon-mobile">
                         <i class="material-icons center">menu</i>
                     </a>
 
-                    <ul id="navbar-items" class="hide-on-med-and-down center-navbar">
-                        <li><a  class="button button--glass" href="newsletter.html">NEWSLETTER</a></li>
-                        <li><a  class="button button--glass" href="Beneficios_home.html">BENEFICIOS</a></li>
-                        <li  class="selec-navbar"><a  class="button button--glass" href="nosotros.html">NOSOTROS</a></li>
-      
+                    <ul id="navbar-items" class="hide-on-mobile center-navbar">
+                        <li><a class="button button--glass" href="newsletter.html">NEWSLETTER</a></li>
+                        <li ><a class="button button--glass" href="Beneficios_home.html">BENEFICIOS</a></li>
+                        <li><a class="button button--glass" href="nosotros.html">NOSOTROS</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </div>
-
-
-    <!--botonflotante-->
-    <div class="fixed-action-btn direction-left">
-        <a class="btn-floating btn-large btn-flat">
-            <i class="fa-solid fa-comments"></i>
-        </a>
-        <ul>
-            <li><a href="https://www.facebook.com/people/Ciudad-Urbana/100081934966603/?ti=as" class="btn-floating btn-flat"><i class="fab fa-facebook fa-2x"></i></a></li>
-            <li><a href="https://x.com/ciudadurbana_ok" class="btn-floating btn-flat"><i class="fab fa-x-twitter fa-2x"></i></a></li>
-            <li><a href="https://www.twitch.tv/ciudadurbana" class="btn-floating btn-flat"><i class="fab fa-twitch fa-2x"></i></a></li>
-            <li><a href="https://www.instagram.com/ciudadurbana96.1/" class="btn-floating btn-flat"><i class="fab fa-instagram fa-2x"></i></a></li>
-            <li><a href="https://www.youtube.com/@ciudadurbana96.1" class="btn-floating btn-flat"><i class="fab fa-youtube fa-2x"></i></a></li>
-            <li><a href="https://api.whatsapp.com/send/?phone=542216438319&text&type=phone_number&app_absent=0" class="btn-floating btn-flat"><i class="fab fa-whatsapp fa-2x"></i></a></li>
-        </ul>
-      </div>
-      
     </div>
 
     <!-- menu mobile-->
@@ -71,27 +72,20 @@
         <li><a href="newsletter.html">Newsletter</a></li>
         <li><a href="Beneficios_home.html">Beneficios</a></li>
         <li><a href="nosotros.html">Nosotros</a></li>
-        <li ><a href="comunidad.html" class="background-white btn">Únete</a></li>
+        <li><a href="#modal-comunidad" class="btn btn-sidenav modal-trigger">SUSCRIBETE</a></li>
     </ul>
-        <div class="container" style="margin-top: 80px;">
-      <div class="card">
-        <div class="white-text texto">
-            <h2> Ciudad Urbana</h2>
-            <h5>Somos un grupo de jóvenes que hemos vivenciado el viraje que se ha producido en los medios de comunicación.</h5>
 
-        <h5> La inexistencia de un producto que nos interpele, como así también la exclusión de oyentes que solo quieren obtener un pasatiempo agradable, participativo y plural.</h5>
-            
-            <h5> Por ello nuestro sueño de «Ciudad Urbana» llega para ayudar a un cambio de paradigma, aportar a nuestros oyentes amor y empatía, impregnar en quienes nos escuchan sentimientos loables y desarrollar contenidos que se encuentren a la altura de nuestro presente cultural y social.</h5>
-            
+    <div class="container" style="margin-top: 80px;">
+        <div class="card">
+            <div class="white-text texto">
+                <h2> Ciudad Urbana</h2>
+                <h5>Somos un grupo de jóvenes que hemos vivenciado el viraje que se ha producido en los medios de comunicación.</h5>
+                <h5> La inexistencia de un producto que nos interpele, como así también la exclusión de oyentes que solo quieren obtener un pasatiempo agradable, participativo y plural.</h5>
+                <h5> Por ello nuestro sueño de «Ciudad Urbana» llega para ayudar a un cambio de paradigma, aportar a nuestros oyentes amor y empatía, impregnar en quienes nos escuchan sentimientos loables y desarrollar contenidos que se encuentren a la altura de nuestro presente cultural y social.</h5>
+            </div>
         </div>
-      </div>
-      </div>
+    </div>
   
-
-
-
-
-
 
     <!--Pie de pagina-->
     <footer style="margin-top: 100px;" class="page-footer pie">
