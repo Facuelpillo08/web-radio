@@ -99,7 +99,7 @@
     height: 420px;
 }
 
-.seccion-card {
+.seccion-card-publi {
     position: absolute;
     width: 100%;
     top: 0;
@@ -119,11 +119,8 @@
     z-index: 0;
 }
 
-.card{
+.card-publi{
     box-shadow: none;
-}
-.card:hover{
-    opacity: 0.6;
 }
 
 .card-image img {
@@ -134,7 +131,7 @@
 }
 
 .card-image {
-    height: 125px;
+    height: 140px;
     display: flex;
     align-items: center;
     justify-content: center;

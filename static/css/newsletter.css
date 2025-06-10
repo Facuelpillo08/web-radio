@@ -1,8 +1,30 @@
-.contenido{
+.card-newsletter{
     display: flex;
-    align-items: center;
-    gap: 50px;
+    justify-content: center;
+    margin-bottom: 0;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: aqua;
 }
 
+.div-image-newsletter{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: antiquewhite;
+    position: relative;
+}
 
+.image-newsletter{
+    height: 150px;
+    border-radius: 50%;
+}
 
+@media (max-width: 600px) {
+  .image-newsletter{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+}
