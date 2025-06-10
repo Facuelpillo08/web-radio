@@ -1,18 +1,13 @@
-.card-newsletter{
+.card-newsletter  {
     display: flex;
-    justify-content: center;
-    margin-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
     border-radius: 10px;
-    border: 2px solid white;
-    background-color: aqua;
 }
 
 .div-image-newsletter{
-    display: flex ;
-    align-items: center;
-    justify-content: center;
     height: 100%;
-    background-color: antiquewhite;
     position: relative;
 }
 

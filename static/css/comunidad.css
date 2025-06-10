@@ -187,23 +187,46 @@ body {
 .login__forgot:hover {
 	color: rgb(17, 97, 237);
 }
+/* modal comnunidad */
+
+.input-field input[type=text]:focus + label {
+    color: white !important;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+}
+.material-icons.active {
+  color: white !important;
+}
 
 [type="radio"]:checked + span:after,
 [type="radio"].with-gap:checked + span:before,
 [type="radio"].with-gap:checked + span:after{
-	border: 2px solid #6e47d8;
+	border: 2px solid white;
 }
 [type="radio"]:checked + span:after,
 [type="radio"].with-gap:checked + span:after{
-	background-color: #6e47d8;
+	background-color: white;
 }
-[type="checkbox"].filled-in:checked + span:not(.lever):after{
-	border: 2px solid #6e47d8;
-	background-color: #6e47d8;
+.custom_checkbox[type="checkbox"]:checked + span:not(.lever)::before {
+  border: 2px solid transparent;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  background: transparent;
 }
 .checked{
 	margin-top: 3%;
+	margin-bottom: 8%;
 }
+.btn-comunidad{
+	background-color: white;
+	color: #6323ac;
+	font-weight: 600;
+	width: 100%;
+	border-radius: 10px;
+}
+
 .sidenav{
 	width: 40%;
 }
