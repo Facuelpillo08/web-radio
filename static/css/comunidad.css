@@ -247,8 +247,17 @@ body {
 	border-radius: 10px;
 }
 
+.btn:hover{
+	background: white !important ;
+}
+
+.btn-comunidad:hover{
+	background: white ;
+
+}
+
 .sidenav{
 	padding-top: 0;
-	width: 40%;
+	width: 35%;
 }
 
