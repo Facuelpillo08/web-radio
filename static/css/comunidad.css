@@ -187,7 +187,27 @@ body {
 .login__forgot:hover {
 	color: rgb(17, 97, 237);
 }
+
+
+
 /* modal comnunidad */
+
+.barra-des::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+.barra-des::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+.barra-des::-webkit-scrollbar-thumb {
+  background: white !important;
+  border-radius: 2px !important;
+}
+
+.barra-des::-webkit-scrollbar-thumb:hover {
+  background: white !important;
+}
 
 .input-field input[type=text]:focus + label {
     color: white !important;
@@ -228,7 +248,7 @@ body {
 }
 
 .sidenav{
-	width: 35%;
- padding-top: 0;
+	padding-top: 0;
+	width: 40%;
 }
 
