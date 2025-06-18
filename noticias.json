@@ -1,0 +1,30 @@
+[
+    {
+        "titulo":"Tarjeta 1",
+        "contenido":"Texto correspondiente a la tarjeta 1"
+    },
+    {
+        "titulo":"Tarjeta 2",
+        "contenido":"Texto correspondiente a la tarjeta 2"
+    },
+    {
+        "titulo":"Tarjeta 3",
+        "contenido":"Texto correspondiente a la tarjeta 3"
+    },
+    {
+        "titulo":"Tarjeta 4",
+        "contenido":"Texto correspondiente a la tarjeta 4"
+    },
+    {
+        "titulo":"Tarjeta 5",
+        "contenido":"Texto correspondiente a la tarjeta 5"
+    },
+    {
+        "titulo":"Tarjeta 6",
+        "contenido":"Texto correspondiente a la tarjeta 6"
+    },
+    {
+        "titulo":"Tarjeta 7",
+        "contenido":"Texto correspondiente a la tarjeta 7"
+    }
+]
