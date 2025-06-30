@@ -257,7 +257,34 @@ body {
 }
 
 .sidenav{
-	padding-top: 0;
-	width: 35%;
+ padding-top: 0;
+  width: 35% !important;
+  max-width: 400px;
+  background-color: #141517 !important;
+  height: 100vh !important;
+  box-shadow: none !important;
+  border: none !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow-y: auto;
 }
+
+
+.sidenav-overlay {
+  background-color: transparent !important; /* elimina ese fondo negro detrás */
+}
+
+ul#slide-out.sidenav.barra-des {
+  width: 35% !important;            /* ancho lateral fijo */
+  max-width: 500px !important;      /* ancho máximo */
+  height: 100vh !important;         /* ocupa toda la altura visible */
+  box-shadow: none !important;         /* sin sombra */
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-y: auto !important;        /* scroll vertical */
+}
+
+
 
