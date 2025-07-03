@@ -1,4 +1,4 @@
-let secciones = document.querySelectorAll('.seccion-card');
+let secciones = document.querySelectorAll('.seccion-card-publi');
 let indiceActual = 0;
 
 setInterval(() => {
@@ -13,4 +13,4 @@ setInterval(() => {
 
     // pasar a siguiete
     indiceActual = (indiceActual + 1) % secciones.length;
-}, 2000);
+}, 3000);
