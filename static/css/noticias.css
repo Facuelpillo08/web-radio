@@ -1,20 +1,30 @@
+.divNoticia .row .col{
+    padding: 0 !important;
+}
 .noticia{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
     margin: 10px 0;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.126);
+    border-radius: 10px;
     height: 130px;
     cursor: pointer;
 }
 .destacada{
-    margin: 10px 0;
+    height: 150px;
+    margin: 0;
 }
 .noticia .img{
     width: 100px;
     height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.destacada .img{
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -33,27 +43,29 @@
     padding: 4px 0;
 }
 .noticia .content .titulo{
+    font-weight: 600;
     color: white;
 }
+.destacada .content .titulo{
+
+}
 .noticia .content .descripcion{
-    color: rgb(68, 68, 68);
+    color: rgb(197, 197, 197);
 }
 
-
 .publicidad {
-    background-color: #fafafa;
+    background-color: transparent;
     position: relative;
     overflow: hidden;
-    height: 420px;
-    margin: 6px 0;
+    height: 410px;
+    margin: 10px 0px;
 }
 
 .seccion-card-publi {
     position: absolute;
     width: 100%;
-    top: 0;
-    left: 0;
     transition: opacity 1s ease;
+    padding: 0 10px;
 }
 
 .visible {
@@ -73,7 +85,7 @@
 }
 
 .card-image {
-    height: 140px;
+    height: 135px;
     display: flex;
     align-items: center;
     justify-content: center;
